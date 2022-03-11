@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <nav class="desktop-nav">
+      <div class="nav-left">
+        <div style="width:50px;height:50px;display:flex;justify-content:center;align-items:center;"><img src="https://i.ibb.co/qWXVDJj/lcfavF.png" alt="lcfavF" border="0"></div>
+        <div style="display:flex;margin-left:20px">
+          <input class="search-bar-nav" type="text" placeholder="Search for people...">
+          <button class="search-btn-nav"><img style="width:25px;height:25px" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAxNzEgMTcxIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MS45ODg2M3YtMTcxLjk4ODYzaDE3MS45ODg2M3YxNzEuOTg4NjN6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iIzQyOTJkYyI+PHBhdGggZD0iTTcxLjgyLDEwLjI2Yy0zMi4xNDI2NSwwIC01OC4xNCwyNS45OTczNSAtNTguMTQsNTguMTRjMCwzMi4xNDI2NiAyNS45OTczNSw1OC4xNCA1OC4xNCw1OC4xNGMxMS40NzU3LDAgMjIuMDk2NDEsLTMuMzY2NTYgMzEuMTAwNjMsLTkuMDg0MzdsNDIuMDAxODcsNDIuMDAxODhsMTQuNTM1LC0xNC41MzVsLTQxLjQ2NzUsLTQxLjM2MDYyYzcuNDU0NTMsLTkuNzc5MDYgMTEuOTcsLTIxLjg5NjAyIDExLjk3LC0zNS4xNjE4N2MwLC0zMi4xNDI2NSAtMjUuOTk3MzQsLTU4LjE0IC01OC4xNCwtNTguMTR6TTcxLjgyLDIzLjk0YzI0LjYyMTMzLDAgNDQuNDYsMTkuODM4NjcgNDQuNDYsNDQuNDZjMCwyNC42MjEzMyAtMTkuODM4NjcsNDQuNDYgLTQ0LjQ2LDQ0LjQ2Yy0yNC42MjEzMywwIC00NC40NiwtMTkuODM4NjcgLTQ0LjQ2LC00NC40NmMwLC0yNC42MjEzMyAxOS44Mzg2NywtNDQuNDYgNDQuNDYsLTQ0LjQ2eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/></button>
+        </div>
+      </div>
+      <div class="nav-right">
+        <button style="display:flex;align-items:center;padding:5px;background-color:white;border-radius:50px;height:45px;margin-right:10px;border-style:none;cursor:pointer;">
+          <!-- Profile Picture -->
+          <img style="width:35px;height:35px;border-radius:100%" src="https://i.ibb.co/yyBgggw/273994531-3163832370604329-5964348004143701016-n.jpg" alt="273994531-3163832370604329-5964348004143701016-n" border="0">
+          <p style="margin-left:5px;margin-right:10px;font-weight:bold;font-size:14px">Jhon lloyd</p>
+        </button>
+        <div id='generalsetting' style="display:flex;align-items:center;">
+          <div class="nav-item-holder">
+              <button onclick="NavBtnClicked('setting');" class="nav-item-box">
+                <img src="https://img.icons8.com/fluency/48/000000/home.png"/>
+              </button>
+              <div id='setting' class="drop-down-content">
+                <div class="row-box">
+                  <img style="width:25px;heigth:25px;margin-right:5px" src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/000000/external-setting-user-interface-fauzidea-flat-fauzidea.png"/>
+                  Setting
+                </div>
+                <div class="line"></div>
+                <div class="row-box">
+
+                  <button>
+                  <img style="width:20px;heigth:20px;margin-right:5px" src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/000000/external-setting-user-interface-fauzidea-flat-fauzidea.png"/>
+                    General Setting
+                  </button>
+                  
+                </div>
+
+                <div class="row-box">
+
+                  <button>
+                  <img style="width:20px;heigth:20px;margin-right:5px" src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/000000/external-setting-user-interface-fauzidea-flat-fauzidea.png"/>
+                    Tech & Support
+                  </button>
+                  
+                </div>
+
+                <div class="row-box">
+
+                  <button>
+                  <img style="width:20px;heigth:20px;margin-right:5px" src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/000000/external-setting-user-interface-fauzidea-flat-fauzidea.png"/>
+                    FAQ's
+                  </button>
+                  
+                </div>
+                
+                
+              </div>
+          </div>
+         
+        </div>
+      </div>
+    </nav>
+
+
+
+    <script>
+
+    function NavBtnClicked(id){
+      $(`#${id}`).css('display','flex');
+      // Hide The Element if it is clicked outside
+      $(document).mouseup(function(e){
+          var container = $(`#${id}`);
+
+          // If the target of the click isn't the container
+          if(!container.is(e.target) && container.has(e.target).length === 0){
+              container.hide();
+          }
+      });
+    }
+      
+    
+    </script>
+  </body>
+</html>
